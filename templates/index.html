@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+
+    body {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    h1 {
+        color: red;
+    }
+    iframe
+    {
+        width:100%;
+        margin-top: 50px;
+        font-size: 25;
+    }
+
+</style>
+</head>
+
+
+<body>
+    <form method="POST">
+        <label>Enter A Country Name</label>
+        <br>
+        <br>
+        <input placeholder="Country Name" name="text">
+        <input type="submit">
+    </form>
+    <iframe src="{{ image }}"></iframe>
+
+    <p>You Have {{ count }} visitors</p>
+</body>
+</html>
